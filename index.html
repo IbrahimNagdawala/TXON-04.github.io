@@ -1,0 +1,203 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio</title>
+
+    <!-- Font (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awsome Icons -->
+    <script src="https://kit.fontawesome.com/2786bc3471.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!------------------------------ Home ------------------------------>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span class="color">I</span>bbuillete</h1>
+                <ul id="mobile-menu">
+                    <li><a href="#header">Home<span class="color">.</span></a></li>
+                    <li><a href="#about">About<span class="color">.</span></a></li>
+                    <li><a href="#services">Services<span class="color">.</span></a></li>
+                    <li><a href="#portfolio">Portfolio<span class="color">.</span></a></li>
+                    <li><a href="#contact">Contact Me<span class="color">.</span></a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <p onclick="openMenu()"><i class="fa-solid fa-bars" onclick="openMenu()"></i></p>
+            </nav>
+            <div class="header-text">
+                <p>A <span class="typing color">Web and Software Developer</span></p>
+                <h1 class="main-title">Hy, I'm <span class="color">I</span>brahim Nagdawala<br>
+                    Developing <span class="bgcolor">Digital Experiences</span></h1>
+            </div>
+
+        </div>
+    </div>
+    <!------------------------------ About ------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="about.jpg" alt="users">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me<span class="color">.</span></h2>
+                    <p>Result-driven Computer Science student from IPS Academy affiliated with Rajiv Gandhi Prodhyogiki Vishwavidyalay passionate about developing user-friendly software applications. Excellent problem-solving skills and ability to perform well in a team. Seeking to help company develop their product as a software engineer, as well as grow and develop my own skills.</p>
+                    <ul>
+                        <li class="tab-links active-link" onclick="openTab('skills')">Skills</li>
+                        <li class="tab-links" onclick="openTab('education')">Education</li>
+                        <li class="tab-links" onclick="openTab('experiences')">Experiences</li>
+                    </ul>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <h3 class="bgcolor">Front-end Development</h3>
+                        <p>HTML, CSS, JavaScript</p>
+
+                        <h3 class="bgcolor">Back-end Development</h3>
+                        <p>Python, SQL, NodeJs</p>
+
+                        <h3 class="bgcolor">Video-Editing</h3>
+                        <p>Adobe, Filmora</p>
+
+                    </div>
+
+                    <div class="tab-contents education" id="education">
+                        <h3 class="bgcolor">2019-2023</h3>
+                        <p>Bachelor of Technology | Institute of Engineering and Science, IPS Academy</p>
+
+                        <h3 class="bgcolor">2017-2018</h3>
+                        <p>Higher Secondary Education (10+2) | Moti Kasturi H.S. School</p>
+
+                        <h3 class="bgcolor">2015 - 2016</h3>
+                        <p>High Secondary Education (10) | Moti Kasturi H.S. School</p>
+                        
+
+                    </div>
+
+                    <div class="tab-contents experiences" id="experiences">
+                        <h3 class="bgcolor">TXON || Feb 2023 - Present</h3>
+                        <p>Works as a web developer intern</p>
+
+                        <h3 class="bgcolor">Techimpulse Technology || July 2022 - Aug 2022</h3>
+                        <p>Worked as an Data Analyst internee, learned a lot with professional training.</p>
+
+                        <h3 class="bgcolor">The Sparks Foundation || Jan 2022 - March 2022</h3>
+                        <p>Worked as Web Development and designing Intern</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------ Services ------------------------------>
+    <div id="services">
+        <div class="container">
+            <h2 class="sub-title">My Services<span class="color">.</span></h2>
+            <div class="row">
+                <div class="services-col">
+                    <i class="fa fa-palette"></i><br>
+                    <h3>Web Designing</h3>
+                    <p>I like to keep it simple. My goals are to focus on typography, content and conveying the message that you want to send </p><br>
+                    <a href="https://ibrahimnagdawala.xyz/#services" target="main">learn more</a>  
+                </div>
+                <div class="services-col">
+                    <i class="fa fa-laptop-code"></i><br>
+                    <h3>Web Development</h3>
+                    <p>I',m a developer, so I know how to create a website to run  accross devices using the latest technologies available</p><br>
+                    <a href="https://ibrahimnagdawala.xyz/#services" target="main">learn more</a>  
+  
+                </div>
+                <div class="services-col">
+                    <i class="fa fa-drafting-compass"></i></i>
+                    <h3>Graphic Designing</h3>
+                    <p>Accompany your website with exeptional graphic design. We'll help you to develop your profit/non-profit brand identity</p><br>
+                    <a href="https://www.ibrahimnagdawala.xyz/#services" target="main">learn more</a>  
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------ Portfolio ------------------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h2 class="sub-title">My Work<span class="color">.</span></h2>
+            <div class="row">
+                <div class="portfolio-col">
+                    <img src="p1.gif">
+                    <div class="layer">
+                        <h3>Phoodivine</h3>
+                        <p>Online Food Ordering System uses NodeJS and MongoDB Server as backend, Frontend is  Developed using HTML5, CSS3, JavaScript.</p>
+                        <a href="https://www.phoodivine.ibrahimnagdawala.xyz"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-col">
+                    <img src="p2.jpg">
+                    <div class="layer">
+                        <h3>Virtual Mouse</h3>
+                        <p> The model makes use of the Pynput, Autopy, and PyAutoGUI packages for moving around the window screen, and also performing functions such as left click, right click, and scrolling .</p>
+                    </div>
+                </div>
+                <div class="portfolio-col">
+                    <img src="p3.jpg">
+                    <div class="layer">
+                        <h3>Toll Management Software</h3>
+                        <p>It is a web-based application that can provide all the information related to toll plazas. Developed using php as a backend</p>
+                        <a href="https://www.toll-management.ibrahimnagdawala.xyz"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.ibrahimnagdawala.xyz/#portfolio" target="main" style="text-decoration: none; color: var(--primary-color);"><button class="btn">Learn More</button></a>
+        </div>
+    </div>
+
+    <!------------------------------ Contact ------------------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <form action="https://formspree.io/f/xayznvwk" method="POST">
+                        <input type="text" name="fullName" id="name" required placeholder="Your Name">
+                        <input type="email" name="Email" id="email" required placeholder="Your Email">
+                        <textarea name="message" id="message"rows="10" placeholder="Your Message ..."></textarea>
+                        <input type="submit" value="Submit" class="btn2">
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <h2 class="sub-title">My Contact<span class="color">.</span></h2>
+                    <p class="bgcolor"><i class="fa-sharp fa-solid fa-phone"></i> Phone</p>
+                    <p><a href="tel:+91-9009386152" style="text-decoration: none; color: #fff;">+919009386152</a></p>
+                    <p class="bgcolor"><i class="fa-solid fa-envelope"></i> Email</p>
+                    <p><a href="mailTo: ibrahimnagdawala257@gmail.com" style="text-decoration: none; color: #fff;">ibrahimnagdawala257@gmail.com</a></p>
+                    <p class="bgcolor"><i class="fa-solid fa-user"></i> Social Profiles</p>
+                    <ul>
+                        <li><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/ibrahim-nagdawala?trk=profile-badge" target="main"><i class="fa-brands fa-linkedin " ></i></a></li>
+                        <li><a href="https://codepen.io/ibbuillete" target="main"><i class="fa-brands fa-codepen"></i></a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=919009386152&text=" target="main"><i class="fa-brands fa-square-whatsapp"></i></a></li>
+                        <li><a href="https://github.com/IbrahimNagdawala" target="main"><i class="fa-brands fa-square-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Made with <span class="color">❤️</span> by <span class="color">I</span>brahim Nagdawala</p>
+        </div>
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
