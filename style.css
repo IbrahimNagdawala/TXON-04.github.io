@@ -24,10 +24,7 @@ body {
 html {
     scroll-behavior: smooth;
 }
-#mobile-menu{
-    display: none;
-    transition: all 0.3s ease;
-}
+
 #header {
     background-image: url('bgimage.gif');
     background-repeat: no-repeat;
@@ -463,6 +460,10 @@ footer {
 @media screen and (max-width: 890px) {
     #header nav ul li a .color {
         color: black;
+    }
+    #mobile-menu{
+        display: none;
+        transition: all 0.3s ease;
     }
 
 #header {
