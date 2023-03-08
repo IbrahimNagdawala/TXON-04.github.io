@@ -41,8 +41,9 @@ function openTab(tabName) {
 var mobileMenu = document.getElementById("mobile-menu");
 function openMenu() {
     mobileMenu.style.right = "0px";
+    mobileMenu.style.display = "flex";
 }
 
 function closeMenu() {
-    mobileMenu.style.right = "-400px";
+    mobileMenu.style.display = "none";
 }

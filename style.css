@@ -52,6 +52,7 @@ span.bgcolor, .bgcolor {
 
 .container {
     padding: 20px 8%;
+    justify-content: center;
 }
 
 .sub-title {
@@ -233,6 +234,10 @@ nav ul li a:hover::after {
 
 .tab-contents.active-tab {
     display: block;
+}
+
+.togglebar.open{
+    transform: translateX(-25px);
 }
 
 /* ------------------- Services ------------------- */
@@ -618,8 +623,54 @@ nav ul li a:hover {
     .header-text p {
         font-size: 16px;
     }
-
+    #contact form input[type="submit"] {
+      
+        font-size: 10px;
+     
+        margin: 19px;
+       
+    }
     .header-text h1 {
         font-size: 25px;
     }
+    .contact-right ul li a {
+        font-size: 25px;
+       
+    }
+    .contact-right {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        font-size: 5px;
+    }
+    #contact p {
+        font-size: 10px;
+    }
+    .contact-left form input, textarea {
+        display: flex;
+        width: 80%;
+        left: 30px;
+        position: relative;
+        margin-top: 20px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        background-color: var(--secondary-color);
+        font-size: 10px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        /* align-content: center; */
+        flex-direction: row;
+    }
+    .sub-title {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 267px) {
+    #header {
+        width: 144vw;
+    }
+    
 }
