@@ -42,8 +42,11 @@ var mobileMenu = document.getElementById("mobile-menu");
 function openMenu() {
     mobileMenu.style.right = "0px";
     mobileMenu.style.display = "flex";
+    mobileMenu.style.transition = "all 0.3s ease";
 }
 
 function closeMenu() {
     mobileMenu.style.display = "none";
+    mobileMenu.style.transition = "all 0.3s ease";
+
 }
