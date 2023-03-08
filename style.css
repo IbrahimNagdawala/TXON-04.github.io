@@ -24,7 +24,9 @@ body {
 html {
     scroll-behavior: smooth;
 }
-
+.mobile-menu{
+    display: none;
+}
 #header {
     background-image: url('bgimage.gif');
     background-repeat: no-repeat;
